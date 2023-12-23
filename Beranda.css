@@ -1,0 +1,402 @@
+body {
+   margin: 0%;
+   padding: 0%; 
+   background-color: #80ffff;
+}
+.logo-1{
+   width: 50px;
+   height: 40px;
+   float: left;
+   margin-left: 6px;
+}
+.tombol-atas{
+    background-color: blueviolet;
+    height: 37px;
+    width: auto;
+}
+.tombol{
+    margin: 8px;
+    float: right;
+}
+.tombol,.btn-1{
+    text-decoration: none;
+    color: #ededed;
+}
+.search{
+    background-color: #e5a2dd;
+    height: 55px;
+    background-size: cover;
+    }
+.search-1{
+    background: transparent;
+    padding: 14px;
+    float: right;
+}
+.cari{
+    border-radius: 8px;
+    height: 21px;
+}
+.colommenu-1{
+    background-color: #ffb22b;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 0px;
+    width: auto;
+    height: auto;
+    display: inline-block;
+    
+}
+.p1{
+    background-color: transparent;
+    margin: 0%;
+    padding: 0px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    float: left;
+}
+.jpg-1{
+    width: 98px;
+    height: 98px;
+    border: 1px solid fuchsia;
+    border-radius: 15%;
+    padding: 3px;
+    margin: 5px;
+    animation: gerak 3s alternate infinite;
+    
+}
+.clear{
+    clear: both;
+}
+.png-bar2{
+    margin: 5px;
+    width: 68px;
+    height: 68px;
+    float: left;
+    border-radius: 15%;
+}
+.bar-2{
+    text-align: justify;
+    background-color: #c4ff40;
+    margin-top: -3px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 7px;
+    border-radius: 10px;
+    border: 1px solid black;
+    border-bottom: 1px solid black;
+    animation: bar2 3s ease ;
+    display: grid;
+}
+.texbar2{
+    text-decoration: none;
+    color: black;
+    padding: 1px;
+    text-align: justify;
+}
+.cover-pc{
+    display: none;
+}
+.copyright{
+    margin: 0px;
+    background-color: #0096ff;
+    color: #fff;
+    text-align: center;
+}
+.bar-c {
+    padding-top: 6px;
+    padding-right: 6px;
+}
+.cp{
+    text-decoration: none;
+    color: white;
+    margin: 0px;
+    text-align: center;
+}
+/* ------------------------- */
+/* keyframe */
+@keyframes gerak {
+    from{
+      border: 1px solid greenyellow;
+    }
+    55% { border: 1px solid blue;}
+    85%{ border: 1px solid orange;}
+    to{
+     border: 1px solid yellow;   
+        
+    }
+}
+@keyframes bar2 {
+    from{
+        margin-top: 125px;
+    }
+    to{
+        margin-top: -2px;
+    }
+}
+@keyframes bar-c {
+    from{
+      border: 2px solid #f800ff;  
+    }
+    25%{
+        border: 2px solid #fff100;
+    }
+    55%{
+        border: 2px solid #00ff2d;
+    }
+    75%{
+        border: 2px solid #00eaff;
+    }
+    to{
+        border: 2px solid #002dff;
+    }
+}
+/* end */
+/* media screen 320px */
+@media only screen and (min-width: 375px) {
+    body{
+        margin: auto;
+        padding: auto;
+    }
+    .jpg-1{
+        margin-right: 28px;
+        margin-left: 27px;
+        margin-top: 10px;
+        padding-top: 5px;
+        border-radius: 21px;
+        width: 58px;
+        height: 58px;
+    }
+}
+/* end */
+
+/* ------------------------------- */
+
+/* ------------------------------- */
+/* media screen 435px */
+@media only screen and (min-width: 435px) {
+    body{
+        width: auto;
+        height: auto;
+    }
+    .jpg-1 {
+        margin-right: 22px;
+        margin-left: 18px;
+        margin-top: 11px;
+        padding: 2px;
+        width: 95px;
+        height: 95px;
+    }
+}
+/* end */
+/* media screen 700px */
+@media only screen and (min-width: 700px){
+
+body {
+    height: auto;
+    width: auto;
+}
+.colommenu-1 {
+    min-width: auto;
+    display: inline;
+    float: right;
+    margin-top: -47px;
+    margin-right: 250px;
+    background-color: transparent;
+
+}
+.jpg-1 {
+    width: 16px;
+    height: 16px;
+    border-radius: 35%;
+}
+.text2{
+    display: none;
+}
+.p1{
+    font-size: 7px;
+    background-color: transparent;
+}
+.colm1{
+    float: left;
+    background-color: transparent;
+}   
+bar-2{
+    margin-top: 6px;
+    height: 330px;
+    padding: 3px;
+    display: table-row;
+    background-color: green;
+    border: 0px solid transparent;
+}
+.bar-2{
+    margin-top: 6px;
+    height: 330px;
+    padding: 3px;
+    display: inline;
+    background-color: transparent;
+    border: 0px solid transparent;
+}
+.bar-c{
+    width: 326px;
+    height: 93px;
+    margin-top: 6px;
+    margin-bottom: 19px;
+    margin-left: 20px;
+    background-color: #f855ff4d;
+    text-align: justify;
+    border-radius: 7px;
+    border: 2px solid white;
+    animation: bar-c 2s ease infinite;
+}
+.bar-c, .bar2-text, .texbar2, a{
+    margin: 4px;
+    
+}
+.bar-c, .bar2-text, .texbar2 {
+    margin: 5px;
+}
+.png-bar2 {
+    padding: 6px;
+}
+.texbar2, a{
+    color: green;
+    font-size: 15px;
+    text-align: left;
+    margin-left: 0px;
+}
+.cover-pc{
+    display: inline-table;
+    width: 250px;
+    margin-top: 50px;
+    margin-right: 63px;
+    margin-bottom: 0px;
+    float: right;
+    background-color: transparent;
+    
+}
+.cover-png{
+    height: 200px;
+    width: 230px;
+    margin: 5px;
+    float: right;
+}
+.cover-text{
+    text-align: center;
+    font-size: 30px;
+    margin-right: 6px;
+    width: 255px;
+    font-family: Times new roman;
+}
+.cp{
+    text-align: center;
+}
+}
+/* and */
+/* ----------------------------- */
+/* media screen 1024 */
+@media only screen and (min-width: 1024px){
+
+body{
+    height: auto;
+    width: auto;
+}
+.colommenu-1 {
+    min-width: auto;
+    display: inline;
+    float: right;
+    margin-top: -47px;
+    margin-right: 250px;
+    background-color: transparent;
+
+}
+.jpg-1 {
+    width: 16px;
+    height: 16px;
+    border-radius: 35%;
+}
+.text2{
+    display: none;
+}
+.p1{
+    font-size: 7px;
+    background-color: transparent;
+}
+.colm1{
+    float: left;
+    background-color: transparent;
+}   
+bar-2{
+    margin-top: 6px;
+    height: 330px;
+    padding: 3px;
+    display: table-row;
+    background-color: green;
+    border: 0px solid transparent;
+}
+.bar-2{
+    margin-top: 6px;
+    height: 330px;
+    padding: 3px;
+    display: inline;
+    background-color: transparent;
+    border: 0px solid transparent;
+}
+.bar-c{
+    width: 326px;
+    height: 93px;
+    margin-top: 6px;
+    margin-bottom: 19px;
+    margin-left: 20px;
+    background-color: #f855ff4d;
+    text-align: justify;
+    border-radius: 7px;
+    border: 2px solid white;
+    animation: bar-c 2s ease infinite;
+}
+.bar-c, .bar2-text, .texbar2, a{
+    margin: 4px;
+    
+}
+.bar-c, .bar2-text, .texbar2 {
+    margin: 5px;
+}
+.png-bar2 {
+    padding: 6px;
+}
+.texbar2, a{
+    color: green;
+    font-size: 15px;
+    text-align: left;
+    margin-left: 0px;
+}
+.cover-pc{
+    display: inline-table;
+    width: 250px;
+    margin-top:50px;
+    margin-right: 200px;
+    margin-bottom: 0px;
+    float: right;
+    background-color: transparent;
+    
+}
+.cover-png{
+    height: 200px;
+    width: 230px;
+    margin: 5px;
+    float: right;
+}
+.cover-text{
+    text-align: center;
+    font-size: 30px;
+    margin-right: 6px;
+    width: 255px;
+    font-family: Times new roman;
+}
+.cp{
+    text-align: center;
+}
+}
+/* ----------------------------- */
+
+/* ----------------------------- */
